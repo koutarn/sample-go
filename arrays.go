@@ -22,4 +22,10 @@ func main() {
 		}
 	}
 	fmt.Println("2d:", twoD)
+
+	c := [...]string{"pen", "ben"}
+	fmt.Printf("%T %v\n", c, c)
+
+	d := []string{"pen", "ben"}
+	fmt.Printf("%T %v\n", d, d)
 }
